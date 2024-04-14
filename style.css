@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+main {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  background-color: #212122;
+  color: aliceblue;
+  gap: 10px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+}
+
+.but {
+  background-color: aqua;
+  color: blue;
+  width: 100%;
+  height: 45px;
+}
+
+.task-index-input {
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+  font-weight: 20px;
+  font-size: 15px;
+  line-height: 15px;
+  color: #323232bf;
+}
